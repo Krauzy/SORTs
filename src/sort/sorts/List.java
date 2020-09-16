@@ -365,6 +365,10 @@ public class List {
         }
     }
     
+    public void merge2() {
+        this.MergeSort(0, SORT.reg - 1);
+    }
+    
     public void merge() {
         int vet1[] = new int[SORT.reg / 2];
         int vet2[] = new int[SORT.reg / 2];
